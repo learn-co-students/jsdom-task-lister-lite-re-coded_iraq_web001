@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
     let textBox =  document.getElementById("new-task-description")
     let button = form.querySelectorAll('input')[1]
     
-    let tasks = document.getElementById('tasks') // ul
+    let tasks = document.getElementById('tasks') 
     
     form.addEventListener("submit", function(event) {
       event.preventDefault()
       console.log("button clicked")
       let li = document.createElement("li")
-      li.innerText = textBox.value    //form.innerText
+      li.innerText = textBox.value    
       tasks.append(li)
     })
   });
