@@ -1,12 +1,4 @@
-// document.addEventListener("DOMContentLoaded",  () => {
-//   // your code here
-//   document.getElementById('create-task-form').addEventListener('submit', function(event){
-//     event.preventDefault();
-//
-//   })
-//
-//
-// });
+
 document.addEventListener("DOMContentLoaded", () => {
   // initialize taskList class
   const taskList = new TaskList();
